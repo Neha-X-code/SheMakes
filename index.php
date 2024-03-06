@@ -101,17 +101,17 @@
             <!-- Sample portfolio items, replace with actual content -->
             <div class="portfolio-item">
                 <img src="images/Handicraft-Business.jpg" alt="">
-                <h3>Portfolio 1</h3>
+                <h3>Handicraft</h3>
                 <p>Description of Portfolio 1.</p>
             </div>
             <div class="portfolio-item">
                 <img src="images/Textile-Business.jpg" alt="">
-                <h3>Portfolio 2</h3>
+                <h3>Textile</h3>
                 <p>Description of Portfolio 2.</p>
             </div>
             <div class="portfolio-item">
                 <img src="images/mandal art.jpg" alt="">
-                <h3>Portfolio 3</h3>
+                <h3>Mandal art</h3>
                 <p>Description of Portfolio 3.</p>
             </div>
         </div>
