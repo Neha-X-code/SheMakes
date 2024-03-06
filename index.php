@@ -53,7 +53,7 @@
     <nav>
         <a href="#">Home</a>
         <a href="#">About Us</a>
-        <a href="#">Signup/Sign In</a>
+        <a href="signup.php">Signup/Sign In</a>
     </nav>
 
     <section>
