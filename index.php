@@ -38,8 +38,7 @@
         }
         .portfolio-item {
             width: 30%;
-            margin-bottom: 2em;
-            border: 1px solid #ccc;
+            margin-bottom: auto;
             padding: 1em;
             text-align: center;
         }
@@ -67,7 +66,7 @@
             cursor: pointer;
             font-size: 16px;
         }
-    </style>
+        a:hover{color: black;}
     </style>
 </head>
 <body>
@@ -101,14 +100,17 @@
         <div class="portfolio">
             <!-- Sample portfolio items, replace with actual content -->
             <div class="portfolio-item">
+                <img src="images/Handicraft-Business.jpg" alt="">
                 <h3>Portfolio 1</h3>
                 <p>Description of Portfolio 1.</p>
             </div>
             <div class="portfolio-item">
+                <img src="images/Textile-Business.jpg" alt="">
                 <h3>Portfolio 2</h3>
                 <p>Description of Portfolio 2.</p>
             </div>
             <div class="portfolio-item">
+                <img src="images/mandal art.jpg" alt="">
                 <h3>Portfolio 3</h3>
                 <p>Description of Portfolio 3.</p>
             </div>
