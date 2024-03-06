@@ -81,7 +81,7 @@
                 </div>
                 <div class="left padding_left">
                     <ul>
-                        <a class="le" href="">Home</a></li>
+                        <a class="le" href="welcome.php">Home</a></li>
                         <a class="le" href="">About Us</a></li>
                         <a class="le" href="signup.php">Sign Up</a></li>
                         <a class="le" href="signin.php">Sign In</a></li>
