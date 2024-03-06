@@ -18,3 +18,29 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
     }
+
+/*
+Footer Section style
+=====================*/
+
+.main_footer{
+    overflow: hidden;
+}
+
+.main_footer i {
+    padding: 0px 5px;
+    color: #ff0000;
+}
+.main_footer p a {
+    padding: 5px;
+}
+.main_footer p a ,
+.main_footer li a {
+    color: #000;
+}
+
+.top{width: 100%; float: left;}
+.container{width: 130%; margin: -45px 30px;}
+.left{width: 31%; float: left; padding-top: 5px;}
+.le{padding-left: 15px;}
+.padding_left{padding-left: 130px; padding-top: 17px;}

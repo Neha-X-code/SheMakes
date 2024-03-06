@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shemakes - Entrepreneurship Portfolio</title>
+    <link rel="stylesheet" href="fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,21 +13,20 @@
             padding: 0;
         }
         header {
-            background-color: #333;
-            color: white;
+            color: #F7418F;
             text-align: center;
-            padding: 1em;
+            padding: 10px 0px;
+            font-size: 20px;
         }
         nav {
             background-color: #555;
-            padding: 1em;
-            text-align: center;
+            padding: 35px;
         }
         nav a {
             color: white;
             text-decoration: none;
-            padding: 0.5em 1em;
-            margin: 0 1em;
+            padding: 5px 2px;
+            margin: 0 1px;
         }
         section {
             padding: 2em;
@@ -42,19 +43,58 @@
             padding: 1em;
             text-align: center;
         }
+        
+        .search-container {
+            text-align: left;
+            margin: 20px 10px;
+            width: 50%;
+        }
+
+        .search-box {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .search-button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
     </style>
 </head>
 <body>
+    <nav>
+        <div class="top">
+            <div class="container">
+                <div class="left search-container">
+                    <form action="/search" method="get">
+                        <input type="text" class="search-box" name="q" placeholder="Search...">
+                        <button type="submit" class="search-button">Search</button>
+                    </form>
+                </div>
+                <div class="left padding_left">
+                    <ul>
+                        <a class="le" href="">Home</a></li>
+                        <a class="le" href="">About Us</a></li>
+                        <a class="le" href="signup.php">Sign Up</a></li>
+                        <a class="le" href="signin.php">Sign In</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <header>
         <h1>SheMakes</h1>
     </header>
-
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="signup.php">Signup/Sign In</a>
-    </nav>
 
     <section>
         <h2>Featured Portfolios</h2>
