@@ -1,9 +1,14 @@
+<?php
+include 'partials/_dbconnect.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shemakes - Entrepreneurship Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="fontawesome.min.css">
     <link rel="stylesheet" href="style.css">
     <style>
@@ -70,26 +75,7 @@
     </style>
 </head>
 <body>
-    <nav>
-        <div class="top">
-            <div class="container">
-                <div class="left search-container">
-                    <form action="/search" method="get">
-                        <input type="text" class="search-box" name="q" placeholder="Search...">
-                        <button type="submit" class="search-button">Search</button>
-                    </form>
-                </div>
-                <div class="left padding_left">
-                    <ul>
-                        <a class="le" href="welcome.php">Home</a></li>
-                        <a class="le" href="">About Us</a></li>
-                        <a class="le" href="signup.php">Sign Up</a></li>
-                        <a class="le" href="signin.php">Sign In</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
+<?php require 'partials/_nav.php'; ?>
 
     <header>
         <h1>SheMakes</h1>
@@ -116,6 +102,6 @@
             </div>
         </div>
     </section>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

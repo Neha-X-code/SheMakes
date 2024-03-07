@@ -66,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                   </div>';
         }
         ?>
-        <h2>Add Startup</h2>
+        <h2 class = "mb-4">Add Startup</h2>
         <form action="/SheMakes/add_startup.php" method="post">
             <div class="mb-3">
                 <label for="startupName" class="form-label">Startup Name</label>
@@ -100,7 +100,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <label for="website" class="form-label">Website Link</label>
                 <input type="text" class="form-control" id="website" name="website">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary btn-dark">Submit</button>
         </form>
     </div>
 
