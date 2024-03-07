@@ -13,25 +13,14 @@ include 'partials/_dbconnect.php';
     <link rel="stylesheet" href="style.css">
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
         header {
             color: #F7418F;
             text-align: center;
-            padding: 10px 0px;
-            font-size: 20px;
-        }
-        nav {
-            background-color: #555;
-            padding: 35px;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 5px 2px;
-            margin: 0 1px;
+            padding: 2%;
+            font-size: 2vw;
         }
         section {
             padding: 2em;
@@ -44,34 +33,10 @@ include 'partials/_dbconnect.php';
         .portfolio-item {
             width: 30%;
             margin-bottom: auto;
-            padding: 1em;
+            padding: 2%;
             text-align: center;
         }
         
-        .search-container {
-            text-align: left;
-            margin: 20px 10px;
-            width: 50%;
-        }
-
-        .search-box {
-            padding: 10px;
-            width: 300px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-
-        .search-button {
-            padding: 10px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        a:hover{color: black;}
     </style>
 </head>
 <body>
@@ -85,17 +50,17 @@ include 'partials/_dbconnect.php';
         <div class="portfolio">
             <!-- Sample portfolio items, replace with actual content -->
             <div class="portfolio-item">
-                <img src="images/Handicraft-Business.jpg" alt="">
+                <img src="images/Handicraft-Business.jpg" alt="" class="img-fluid">
                 <h3>Handicraft</h3>
                 <p>Description of Portfolio 1.</p>
             </div>
             <div class="portfolio-item">
-                <img src="images/Textile-Business.jpg" alt="">
+                <img src="images/Textile-Business.jpg" alt="" class="img-fluid">
                 <h3>Textile</h3>
                 <p>Description of Portfolio 2.</p>
             </div>
             <div class="portfolio-item">
-                <img src="images/mandal art.jpg" alt="">
+                <img src="images/mandal art.jpg" alt="" class="img-fluid">
                 <h3>Mandal art</h3>
                 <p>Description of Portfolio 3.</p>
             </div>
