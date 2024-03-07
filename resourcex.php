@@ -17,16 +17,18 @@ if (!isset($_SESSION['loggedin'])) {
     <title>Useful Resources</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
+body {
             background-color: #f8f9fa;
             color: #343a40;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-
         .container {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .container1 {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
@@ -51,12 +53,6 @@ if (!isset($_SESSION['loggedin'])) {
             margin-bottom: 10px;
         }
 
-        a {
-            text-decoration: none;
-            color: #007bff;
-            font-weight: bold;
-        }
-
         p {
             text-align: center;
             margin-top: 20px;
@@ -71,7 +67,7 @@ if (!isset($_SESSION['loggedin'])) {
 
 <body>
     <?php require 'partials/_navx.php'; ?>
-    <div class="container">
+    <div class="container1">
         <h1>USEFUL RESOURCES</h1>
 
         <ul>

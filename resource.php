@@ -24,8 +24,11 @@ if (!isset($_SESSION['loggedin'])) {
             padding: 0;
             box-sizing: border-box;
         }
-
         .container {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .container1 {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
@@ -64,7 +67,7 @@ if (!isset($_SESSION['loggedin'])) {
 
 <body>
     <?php require 'partials/_nav.php'; ?>
-    <div class="container">
+    <div class="container1">
         <h1>USEFUL RESOURCES</h1>
 
         <ul>
