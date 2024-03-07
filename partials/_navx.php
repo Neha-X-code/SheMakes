@@ -10,7 +10,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/SheMakes/welcome.php">Home</a>
+          <a class="nav-link active" aria-current="page" href="/SheMakes/home.php">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/SheMakes/aboutus.php">About Us</a>

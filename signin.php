@@ -6,6 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $username = $_POST["username"];
     $password = $_POST["password"];
+    $entrepreneurType = $_POST["signInAs"]; 
 
     $sql = "SELECT * FROM `shemakes` WHERE `username` = '$username'";
     $result = mysqli_query($conn, $sql);
@@ -19,11 +20,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 session_start();
                 $_SESSION['loggedin'] = true;
                 $_SESSION['username'] = $username;
-                header("location: welcome.php");
+                $_SESSION['entrepreneurType'] = $entrepreneurType;
+                header("location: " . redirect_to_page());
                 exit();
             } else {
                 $showError = "Invalid Password";
             }
+        exit();
         } else {
             $showError = "Invalid Username";
         }
@@ -31,7 +34,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         die("Error: " . mysqli_error($conn));
     }
 }
+
+ function redirect_to_page() {
+        $entrepreneurType = $_POST["signInAs"]; // Use signInAs instead of entrepreneurType
+
+        // Redirect based on the selected option
+        switch ($entrepreneurType) {
+            case 'establishedEntrepreneur':
+                return '/SheMakes/welcome.php'; // Replace with the actual page URL
+            case 'aspiringEntrepreneur':
+                return '/SheMakes/home.php'; // Replace with the actual page URL
+            default:
+                // Handle default case or provide an error message
+                return 'error.php';
+                }
+            } 
 ?>
+
 
 <!doctype html>
 <html lang="en">
@@ -77,8 +96,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <input type="password" class="form-control" id="password" name="password">
                                     </div>
 
+                                    <div class="d-flex justify-content-center mb-4">
+                                        <button type="submit" name="signInAs" value="aspiringEntrepreneur" class="btn btn-primary btn-block btn-lg gradient-custom-4 btn-dark text-white">Sign In as Aspiring Entrepreneur</button>
+                                    </div>
                                     <div class="d-flex justify-content-center">
-                                        <button type="submit" class="btn btn-primary btn-block btn-lg gradient-custom-4 text-body">Sign In</button>
+                                        <button type="submit" name="signInAs" value="establishedEntrepreneur" class="btn btn-primary btn-block btn-lg gradient-custom-4 btn-dark text-white">Sign In as Established Entrepreneur</button>
                                     </div>
 
                                     <p class="text-center text-muted mt-5 mb-0">
