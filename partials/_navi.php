@@ -10,14 +10,15 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/SheMakes/welcome.php">Home</a>
+          <a class="nav-link active" aria-current="page" href="/SheMakes/signup.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/SheMakes/aboutus.php">About Us</a>
+          <a class="nav-link" href="/SheMakes/aboutusi.php">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/SheMakes/resource.php">Resources</a>
+          <a class="nav-link" href="/SheMakes/signup.php">Signup</a>
         </li>
+        
       </ul>
     </div>
   </div>

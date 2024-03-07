@@ -13,10 +13,10 @@
           <a class="nav-link active" aria-current="page" href="/SheMakes/home.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/SheMakes/aboutus.php">About Us</a>
+          <a class="nav-link" href="/SheMakes/aboutusx.php">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/SheMakes/signup.php">Signup</a>
+          <a class="nav-link" href="/SheMakes/resourcex.php">Resources</a>
         </li>
       </ul>
     </div>

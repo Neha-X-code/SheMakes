@@ -75,8 +75,7 @@ include 'partials/_dbconnect.php';
     </style>
 </head>
 <body>
-<?php require 'partials/_nav.php'; ?>
-
+    <?php require 'partials/_navi.php'; ?>
     <header>
         <h1>SheMakes</h1>
     </header>

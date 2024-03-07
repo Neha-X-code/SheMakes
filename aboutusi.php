@@ -28,7 +28,7 @@
 </head>
 
 <body>
-<?php require 'partials/_nav.php'; ?>
+<?php require 'partials/_navi.php'; ?>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
